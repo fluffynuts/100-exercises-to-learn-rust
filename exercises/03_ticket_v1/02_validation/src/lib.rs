@@ -16,20 +16,61 @@ impl Ticket {
     // You'll have to use what you learned in the previous exercises,
     // as well as some `String` methods. Use the documentation of Rust's standard library
     // to find the most appropriate options -> https://doc.rust-lang.org/std/string/struct.String.html
-    fn new(title: String, description: String, status: String) -> Self {
-        todo!();
-        Self {
+    fn new(
+        title: String, 
+        description: String, 
+        status: String,
+    ) -> Self {
+        let result = Self {
             title,
             description,
             status,
+        };
+        
+        result.validate();
+        return result;
+    }
+    
+    fn validate(&self)  {
+        match self.status.as_str() {
+            s if s == "To-Do" => {},
+            s if s == "In Progress" => {},
+            s if s == "Done" => {},
+            _ => panic!("Only `To-Do`, `In Progress`, and `Done` statuses are allowed")
+        }
+        match self.title.len() {
+            d if d == 0 => panic!("Title cannot be empty"),
+            d if d > 50 => panic!("Title cannot be longer than 50 bytes"),
+            _ => {}
+        }
+        match self.description.len() {
+            0 => panic!("Description cannot be empty"),
+            l if l > 500 => panic!("Description cannot be longer than 500 bytes"),
+            _ => {}
         }
     }
 }
 
 #[cfg(test)]
 mod tests {
+    use std::iter::repeat;
     use super::*;
-    use common::{overly_long_description, overly_long_title, valid_description, valid_title};
+
+    fn valid_description() -> String {
+        return "Test Ticket Description".into();
+    }
+
+    fn valid_title() -> String {
+        return "Test Ticket Title".into();
+    }
+
+    fn overly_long_title() -> String {
+        return repeat("X").take(51).collect::<String>();
+    }
+
+    fn overly_long_description() -> String {
+        return repeat('X').take(501).collect::<String>();
+    }
 
     #[test]
     #[should_panic(expected = "Title cannot be empty")]
