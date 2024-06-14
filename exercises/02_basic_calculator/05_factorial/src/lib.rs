@@ -10,6 +10,13 @@
 //
 // Use only what you learned! No loops yet, so you'll have to use recursion!
 
+fn factorial(stop: u32) -> u32 {
+    if stop < 2 {
+        return 1;
+    }
+    return stop * factorial(stop - 1);
+}
+
 #[cfg(test)]
 mod tests {
     use crate::factorial;
