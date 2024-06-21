@@ -23,12 +23,25 @@ pub mod ticket {
                 panic!("Only `To-Do`, `In Progress`, and `Done` statuses are allowed");
             }
 
-            Ticket {
+            return Ticket {
                 title,
                 description,
                 status,
-            }
+            };
         }
+        
+        pub fn title(self) -> String {
+            return self.title;
+        }
+        
+        pub fn description(self) -> String {
+            return self.description;
+        }
+        
+        pub fn status(self) -> String {
+            return self.status;
+        }
+        
 
         // TODO: Add three public methods to the `Ticket` struct:
         //  - `title` that returns the `title` field.
