@@ -47,6 +47,14 @@ pub mod ticket {
 #[cfg(test)]
 mod tests {
     use super::ticket::Ticket;
+    
+    #[test]
+    fn borrowing() {
+        let ticket = Ticket::new("moo".into(), "cow".into(), "nerf".into());
+        if ticket.status() == "moo" {
+            println!("Your next task is: {}", ticket.title())
+        }
+    }
 
     #[test]
     fn description() {
