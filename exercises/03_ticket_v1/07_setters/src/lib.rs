@@ -45,6 +45,42 @@ impl Ticket {
     pub fn status(&self) -> &String {
         &self.status
     }
+
+    pub fn set_title(mut self, title: String) -> Ticket {
+        if title.is_empty() {
+            panic!("Title cannot be empty");
+        }
+        if title.len() > Self::MAX_TITLE_LENGTH {
+            panic!("Title cannot be longer than {} bytes", Self::MAX_TITLE_LENGTH)
+        }
+        self.title = title;
+        return self;
+    }
+    const MAX_DESCRIPTION_LENGTH: usize = 500;
+    const MAX_TITLE_LENGTH: usize = 50;
+    const ALLOWABLE_STATUS_VALUES: [&'static str; 3] = [
+        "To-Do",
+        "In Progress",
+        "Done"
+    ];
+    
+    pub fn set_description(&mut self, description: String) {
+        if description.is_empty() {
+            panic!("Description cannot be empty");
+        }
+        
+        if description.len() > Self::MAX_DESCRIPTION_LENGTH {
+            panic!("Description cannot be longer than {} bytes", Self::MAX_DESCRIPTION_LENGTH);
+        }
+        self.description = description;
+    }
+    pub fn set_status(&mut self, status: String) {
+        if Self::ALLOWABLE_STATUS_VALUES.contains(&status.as_str()) {
+            self.status = status;
+            return;
+        }
+        panic!("Only `To-Do`, `In Progress`, and `Done` statuses are allowed");
+    }
 }
 
 #[cfg(test)]
@@ -55,7 +91,9 @@ mod tests {
     #[test]
     fn works() {
         let mut ticket = Ticket::new("A title".into(), "A description".into(), "To-Do".into());
-        ticket.set_title("A new title".into());
+        // the re-assignment back to self is... odd, but required to satisfy the borrow-checker
+        ticket = ticket.set_title("A new title".into());
+        // personally, I think this way produces the least WAT
         ticket.set_description("A new description".into());
         ticket.set_status("Done".into());
 
@@ -80,7 +118,7 @@ mod tests {
     #[should_panic(expected = "Title cannot be longer than 50 bytes")]
     fn title_cannot_be_longer_than_fifty_chars() {
         Ticket::new(valid_title(), valid_description(), "To-Do".into())
-            .set_title(overly_long_title())
+            .set_title(overly_long_title());
     }
 
     #[test]
