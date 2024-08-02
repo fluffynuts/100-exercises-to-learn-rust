@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84d7656c-85ed-463a-9935-b5ff9432d55c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/100-exercises-to-learn-rust.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/00_welcome/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/00_welcome/.idea/00_welcome.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/00_welcome/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/00_welcome/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/00_welcome/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/01_syntax/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/01_syntax/.idea/.idea.01_syntax.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/01_syntax/.idea/.idea.01_syntax.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/01_syntax/.idea/.idea.01_syntax.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/01_syntax/.idea/.idea.01_syntax.dir/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/01_syntax/.idea/01_syntax.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/01_syntax/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/01_syntax/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/.idea/01_integers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/.idea/02_variables.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/.idea/03_if_else.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/.idea/04_panics.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/05_factorial/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/05_factorial/.idea/05_factorial.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/05_factorial/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/05_factorial/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/05_factorial/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/.idea/06_while.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/.idea/07_for.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/.idea/08_overflow.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/09_saturating/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/09_saturating/.idea/09_saturating.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/09_saturating/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/09_saturating/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/09_saturating/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/10_as_casting/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/10_as_casting/.idea/10_as_casting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/10_as_casting/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/10_as_casting/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/10_as_casting/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/00_intro/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/00_intro/.idea/00_intro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/00_intro/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/00_intro/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/00_intro/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/01_struct/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/01_struct/.idea/01_struct.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/01_struct/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/01_struct/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/01_struct/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/02_validation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/02_validation/.idea/02_validation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/02_validation/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/02_validation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/02_validation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/03_modules/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/03_modules/.idea/03_modules.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/03_modules/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/03_modules/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/03_modules/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/04_visibility/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/04_visibility/.idea/04_visibility.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/04_visibility/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/04_visibility/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/04_visibility/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/05_encapsulation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/05_encapsulation/.idea/05_encapsulation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/05_encapsulation/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/05_encapsulation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/05_encapsulation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/06_ownership/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/06_ownership/.idea/06_ownership.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/06_ownership/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/06_ownership/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/06_ownership/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/07_setters/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/07_setters/.idea/07_setters.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/07_setters/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/07_setters/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/07_setters/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/.idea/08_stack.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/src/lib.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2k6LncmE8dHxyDXJ9y9MfhDQ3ut" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "my-solutions",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84d7656c-85ed-463a-9935-b5ff9432d55c" name="Changes" comment="" />
+      <created>1722599249459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722599249459</updated>
+      <workItem from="1722599250665" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
