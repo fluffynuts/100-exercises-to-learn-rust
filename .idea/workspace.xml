@@ -9,10 +9,12 @@
   <component name="ChangeListManager">
     <list default="true" id="47d459c7-0895-44aa-b103-d06a6b74745d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/09_heap/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/09_heap/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/00_intro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/00_intro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/01_trait/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/01_trait/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/03_operator_overloading/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/03_operator_overloading/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/04_derive/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/04_derive/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/05_trait_bounds/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/05_trait_bounds/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +27,9 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="05jccjrk" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2k6LpMQfCWRq8YfBquIojkV7MD9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,6 +44,7 @@
     "Cargo.Test lib::tests.executor": "Run",
     "Cargo.Test test_order.executor": "Run",
     "Cargo.Test tests::string_size.executor": "Run",
+    "Cargo.Test tests::test_intro.executor": "Run",
     "Cargo.Test tests::ticket_size.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
@@ -50,10 +53,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": ""
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Test integration">
+  <component name="RunManager" selected="Cargo.Test lib::tests (3)">
     <configuration name="Run mdbook-exercise-linker" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package mdbook-exercise-linker --bin mdbook-exercise-linker" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -105,8 +109,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test integration" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package outro_02 --test integration &quot;&quot;" />
+    <configuration name="Test lib::tests (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package overloading --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -123,7 +127,7 @@
       </method>
     </configuration>
     <configuration name="Test lib::tests (2)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package references_in_memory --lib tests" />
+      <option name="command" value="test --package derives --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -140,7 +144,7 @@
       </method>
     </configuration>
     <configuration name="Test lib::tests (3)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package destructor --lib tests" />
+      <option name="command" value="test --package str_slice --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -156,8 +160,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test test_order" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package outro_02 --test integration test_order -- --exact" />
+    <configuration name="Test lib::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package trait_ --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -173,8 +177,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test tests::string_size" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package heap --lib tests::string_size -- --exact" />
+    <configuration name="Test tests::test_intro" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package intro_03 --lib tests::test_intro -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -192,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Test integration" />
-        <item itemvalue="Cargo.Test test_order" />
         <item itemvalue="Cargo.Test lib::tests (3)" />
         <item itemvalue="Cargo.Test lib::tests (2)" />
-        <item itemvalue="Cargo.Test tests::string_size" />
+        <item itemvalue="Cargo.Test lib::tests (1)" />
+        <item itemvalue="Cargo.Test lib::tests" />
+        <item itemvalue="Cargo.Test tests::test_intro" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +216,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722599262717</updated>
       <workItem from="1722599263285" duration="5981000" />
+      <workItem from="1724414756475" duration="5759000" />
     </task>
     <servers />
   </component>

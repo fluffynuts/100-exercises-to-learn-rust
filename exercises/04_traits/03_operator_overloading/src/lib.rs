@@ -1,14 +1,21 @@
 use std::cmp::PartialEq;
 
+#[derive(PartialEq)]
 struct Ticket {
     title: String,
     description: String,
     status: String,
 }
 
-// TODO: Implement the `PartialEq` trait for `Ticket`.
-
-impl PartialEq for Ticket {}
+// // TODO: Implement the `PartialEq` trait for `Ticket`.
+// 
+// impl PartialEq for Ticket {
+//     fn eq(&self, other: &Self) -> bool {
+//         self.title == other.title &&
+//             self.description == other.description &&
+//             self.status == other.status
+//     }
+// }
 
 #[cfg(test)]
 mod tests {

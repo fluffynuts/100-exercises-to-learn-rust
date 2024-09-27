@@ -28,23 +28,23 @@ impl Order {
         result.set_product_name(product_name);
         result.set_quantity(quantity);
         result.set_unit_price(unit_price);
-        return result;
+        result
     }
 
     pub fn product_name(&self) -> &String {
-        return &self.product_name;
+        &self.product_name
     }
 
     pub fn quantity(&self) -> &i32 {
-        return &self.quantity;
+        &self.quantity
     }
 
     pub fn unit_price(&self) -> &i32 {
-        return &self.unit_price;
+        &self.unit_price
     }
     
     pub fn total(&self) -> i32 {
-        return self.unit_price * self.quantity;
+        self.unit_price * self.quantity
     }
     
     pub fn set_product_name(&mut self, product_name: String) {
