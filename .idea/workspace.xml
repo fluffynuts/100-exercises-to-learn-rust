@@ -7,13 +7,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d459c7-0895-44aa-b103-d06a6b74745d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/04_traits/06_str_slice/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/06_str_slice/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/04_traits/07_deref/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/07_deref/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/04_traits/08_sized/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/08_sized/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/04_traits/09_from/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/09_from/src/lib.rs" afterDir="false" />
-    </list>
+    <list default="true" id="47d459c7-0895-44aa-b103-d06a6b74745d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,7 +215,7 @@
       <updated>1722599262717</updated>
       <workItem from="1722599263285" duration="5981000" />
       <workItem from="1724414756475" duration="5759000" />
-      <workItem from="1727439618468" duration="2244000" />
+      <workItem from="1727439618468" duration="3857000" />
     </task>
     <servers />
   </component>
